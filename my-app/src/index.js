@@ -7,6 +7,7 @@ import {ChakraProvider} from '@chakra-ui/react'
 import { ColorModeScript } from '@chakra-ui/react';
 // 1. Import `extendTheme`
 import { extendTheme } from "@chakra-ui/react"
+import { UserContextProvider } from './useContext';
 
 // 2. Call `extendTheme` and pass your custom values
 const theme = extendTheme({
@@ -46,7 +47,8 @@ root.render(
   <React.StrictMode>
        <ColorModeScript initialColorMode={theme.config.initialColorMode} />
       <ChakraProvider theme={theme}>
-      <App />
+        <UserContextProvider> <App /></UserContextProvider>
+     
       </ChakraProvider>
     
    

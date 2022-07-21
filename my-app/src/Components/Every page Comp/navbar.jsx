@@ -7,6 +7,16 @@ import {
   Stack,
   Collapse,
   Icon,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+  FormControl,
+  FormLabel,
+  Input,
   Link,
   Image,
   Popover,
@@ -29,13 +39,78 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 
+import React from "react";
+import { useState } from "react";
+
 export default function WithSubnavigation() {
-  const { isOpen, onToggle } = useDisclosure();
+  const { isOpen1, onToggle } = useDisclosure();
+
+  let data = JSON.parse(localStorage.getItem("Image"));
+  // console.log('me local imaage',data);
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const initialRef = React.useRef(null);
+  const finalRef = React.useRef(null);
+  const [image, setImage] = useState();
+  function handleChange(event) {
+    let reader = new FileReader();
+    reader.readAsDataURL(event.target.files[0]);
+    reader.onload = (e) => {
+      let img = e.target.result;
+      setImage(img);
+    };
+  }
+  function handleLocal() {
+    if (image == null) {
+      alert("Please Fill The foam");
+    } else {
+      localStorage.setItem("Image", JSON.stringify(image));
+      window.location.reload();
+    }
+  }
 
   return (
-    <Box >
+    <Box pos={"sticky"} top="0" zIndex="3">
+      <Modal
+        initialFocusRef={initialRef}
+        finalFocusRef={finalRef}
+        isOpen={isOpen}
+        onClose={onClose}
+      >
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>Create your account</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody pb={6}>
+            <FormControl>
+              <FormLabel>First name</FormLabel>
+              <Input ref={initialRef} placeholder="First name" />
+            </FormControl>
+
+            <FormControl mt={4}>
+              <FormLabel>Last name</FormLabel>
+              <Input placeholder="Last name" />
+            </FormControl>
+            <FormControl mt={4}>
+              <FormLabel>Choose Profile</FormLabel>
+              <Input onChange={handleChange} type="file" />
+            </FormControl>
+          </ModalBody>
+
+          <ModalFooter>
+            <Button
+              onClick={handleLocal}
+              color="fontcolor.100"
+              bg="background.teal"
+              mr={3}
+            >
+              Save
+            </Button>
+            <Button onClick={onClose}>Cancel</Button>
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
+
       <Flex
-        
         bg={useColorModeValue("background.teal", "gray.800")}
         color={useColorModeValue("gray.800", "white")}
         minH={"60px"}
@@ -54,7 +129,11 @@ export default function WithSubnavigation() {
           <IconButton
             onClick={onToggle}
             icon={
-              isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
+              isOpen1 ? (
+                <CloseIcon w={3} h={3} />
+              ) : (
+                <HamburgerIcon w={5} h={5} />
+              )
             }
             variant={"ghost"}
             aria-label={"Toggle Navigation"}
@@ -67,11 +146,11 @@ export default function WithSubnavigation() {
             color={useColorModeValue("gray.800", "white")}
           >
             <Link href="/">
-            <Image
-              w="40%"
-              src="https://www.cricbuzz.com/images/cb_logo.svg"
-              alt="img"
-            />
+              <Image
+                w="30%"
+                src="https://www.cricbuzz.com/images/cb_logo.svg"
+                alt="img"
+              />
             </Link>
           </Text>
 
@@ -101,7 +180,7 @@ export default function WithSubnavigation() {
             Cricbuzz Plus
           </Button>
           <Flex alignItems={"center"}>
-            <Menu>
+            <Menu _hover={"hover.bg"}>
               <MenuButton
                 as={Button}
                 rounded={"full"}
@@ -109,20 +188,23 @@ export default function WithSubnavigation() {
                 cursor={"pointer"}
                 minW={0}
               >
-                <Avatar size={"sm"} src={"https://images.unsplash.com/photo-1532074205216-d0e1f4b87368?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=741&q=80"} />
+                <Avatar size={"sm"} src={data} />
               </MenuButton>
               <MenuList>
-                <MenuItem>Edit Profile</MenuItem>
-                <MenuItem>Change Password</MenuItem>
+                <MenuItem onClick={onOpen}>Edit Profile</MenuItem>
+                <MenuItem onClick={onOpen}>Change Password</MenuItem>
                 <MenuDivider />
-                <MenuItem>Log Out</MenuItem>
+                <MenuItem>
+                  {" "}
+                  <Link href="/SignIn"> Log Out </Link>
+                </MenuItem>
               </MenuList>
             </Menu>
           </Flex>
         </Stack>
       </Flex>
 
-      <Collapse  in={isOpen} animateOpacity>
+      <Collapse in={isOpen1} animateOpacity>
         <MobileNav />
       </Collapse>
     </Box>
@@ -164,7 +246,7 @@ const DesktopNav = () => {
                 rounded={"xl"}
                 minW={"sm"}
               >
-                <Stack >
+                <Stack>
                   {navItem.children.map((child) => (
                     <DesktopSubNav key={child.label} {...child} />
                   ))}
@@ -185,17 +267,15 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
       role={"group"}
       display={"block"}
       p={2}
-      
       rounded={"md"}
       _hover={{ bg: useColorModeValue("groupHover.bg", "gray.900") }}
     >
-      <Stack  direction={"row"} align={"center"}>
+      <Stack direction={"row"} align={"center"}>
         <Box>
           <Text
             transition={"all .3s ease"}
             _groupHover={{ color: "background.teal" }}
             fontWeight={500}
-            
           >
             {label}
           </Text>
@@ -222,7 +302,6 @@ const MobileNav = () => {
     <Stack
       bg={useColorModeValue("white", "gray.800")}
       p={4}
-      
       display={{ md: "none" }}
     >
       {NAV_ITEMS.map((navItem) => (
@@ -233,10 +312,10 @@ const MobileNav = () => {
 };
 
 const MobileNavItem = ({ label, children, href }: NavItem) => {
-  const { isOpen, onToggle } = useDisclosure();
+  const { isOpen1, onToggle } = useDisclosure();
 
   return (
-    <Stack  spacing={4} onClick={children && onToggle}>
+    <Stack spacing={4} onClick={children && onToggle}>
       <Flex
         py={2}
         as={Link}
@@ -246,10 +325,8 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
         _hover={{
           textDecoration: "none",
         }}
-        
       >
         <Text
-        
           fontWeight={600}
           color={useColorModeValue("gray.600", "gray.200")}
         >
@@ -259,14 +336,18 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
           <Icon
             as={ChevronDownIcon}
             transition={"all .25s ease-in-out"}
-            transform={isOpen ? "rotate(180deg)" : ""}
+            transform={isOpen1 ? "rotate(180deg)" : ""}
             w={6}
             h={6}
           />
         )}
       </Flex>
 
-      <Collapse in={isOpen} animateOpacity style={{ marginTop: "0!important" }}>
+      <Collapse
+        in={isOpen1}
+        animateOpacity
+        style={{ marginTop: "0!important" }}
+      >
         <Stack
           mt={2}
           pl={2}
@@ -277,7 +358,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
         >
           {children &&
             children.map((child) => (
-              <Link key={child.label} py={2} to={child.href}  >
+              <Link key={child.label} py={2} to={child.href}>
                 {child.label}
               </Link>
             ))}
@@ -297,10 +378,11 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Live Score",
-    href:"/liveScore"
+    href: "/liveScore",
   },
   {
     label: "Schedule",
+    href: "/schedule",
   },
   {
     label: "Achieves",
@@ -358,12 +440,9 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Series",
     children: [
       {
-        label:"trying to add api here......"
-      }
-
-
+        label: "trying to add api here......",
+      },
     ],
-
   },
   {
     label: "More",
