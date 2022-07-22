@@ -27,16 +27,16 @@ import { UserContext } from '../../useContext';
     
     function handleAuth(){
         setIsAuth(true)
-      //  navigate('/')
-
+        navigate('/')
+        localStorage.setItem('bool','true')
     }
   
    
    
     return (
       <Flex
-          mt="-6%"
-        minH={'100vh'}
+          mt="%"
+        minH={'80vh'}
         align={'center'}
         justify={'center'}
         bg={useColorModeValue('gray.50', 'gray.800')}>
@@ -56,11 +56,11 @@ import { UserContext } from '../../useContext';
             <Stack spacing={4}>
               <FormControl id="email">
                 <FormLabel>Email address</FormLabel>
-                <Input type="email" />
+                <Input type="email" placeholder='Email' />
               </FormControl>
               <FormControl id="password">
                 <FormLabel>Password</FormLabel>
-                <Input type="password" />
+                <Input type="password" placeholder='Password' />
               </FormControl>
               <Stack spacing={10}>
                 <Stack
@@ -68,7 +68,7 @@ import { UserContext } from '../../useContext';
                   align={'start'}
                   justify={'space-between'}>
                   <Checkbox>Remember me</Checkbox>
-                  <NavLink to="/" color={'blue.400'}>Forgot password?</NavLink>
+                  <NavLink to="/forgot" color={'blue.400'}>Forgot password?</NavLink>
                 </Stack>
               
                 <Button

@@ -38,13 +38,18 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
+import {  ButtonProps,  useColorMode } from '@chakra-ui/react';
+import { BsSun, BsMoonStarsFill } from 'react-icons/bs';
 
 import React from "react";
 import { useState } from "react";
+import { Navigate, useNavigate } from "react-router-dom";
 
-export default function WithSubnavigation() {
-  const { isOpen1, onToggle } = useDisclosure();
-
+export default function WithSubnavigation(props:ButtonProps) {
+  const { colorMode, toggleColorMode } = useColorMode();
+  
+  const { Sharun, onToggle } = useDisclosure();
+   
   let data = JSON.parse(localStorage.getItem("Image"));
   // console.log('me local imaage',data);
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -67,6 +72,11 @@ export default function WithSubnavigation() {
       window.location.reload();
     }
   }
+  function handleLogOut(){
+    localStorage.setItem('bool','false')
+  }
+  
+  
 
   return (
     <Box pos={"sticky"} top="0" zIndex="3">
@@ -129,7 +139,7 @@ export default function WithSubnavigation() {
           <IconButton
             onClick={onToggle}
             icon={
-              isOpen1 ? (
+              Sharun ? (
                 <CloseIcon w={3} h={3} />
               ) : (
                 <HamburgerIcon w={5} h={5} />
@@ -165,6 +175,18 @@ export default function WithSubnavigation() {
           direction={"row"}
           spacing={6}
         >
+           <Flex h="100%" justifyContent="center" alignItems="center">
+      <Button
+        aria-label="Toggle Color Mode"
+        onClick={toggleColorMode}
+        _focus={{ boxShadow: 'none' }}
+        bg=""
+        color={'white'}
+        w="fit-content"
+        {...props}>
+        {colorMode === 'light' ? <BsMoonStarsFill /> : <BsSun />}
+      </Button>
+    </Flex>
           <Button
             display={{ base: "none", md: "inline-flex" }}
             fontSize={"sm"}
@@ -196,7 +218,7 @@ export default function WithSubnavigation() {
                 <MenuDivider />
                 <MenuItem>
                   {" "}
-                  <Link href="/SignIn"> Log Out </Link>
+                  <Link href="/SignIn" onClick={handleLogOut}> Log Out </Link>
                 </MenuItem>
               </MenuList>
             </Menu>
@@ -204,7 +226,7 @@ export default function WithSubnavigation() {
         </Stack>
       </Flex>
 
-      <Collapse in={isOpen1} animateOpacity>
+      <Collapse in={Sharun} animateOpacity>
         <MobileNav />
       </Collapse>
     </Box>
@@ -312,7 +334,7 @@ const MobileNav = () => {
 };
 
 const MobileNavItem = ({ label, children, href }: NavItem) => {
-  const { isOpen1, onToggle } = useDisclosure();
+  const { Sharun, onToggle } = useDisclosure();
 
   return (
     <Stack spacing={4} onClick={children && onToggle}>
@@ -336,7 +358,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
           <Icon
             as={ChevronDownIcon}
             transition={"all .25s ease-in-out"}
-            transform={isOpen1 ? "rotate(180deg)" : ""}
+            transform={Sharun ? "rotate(180deg)" : ""}
             w={6}
             h={6}
           />
@@ -344,7 +366,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
       </Flex>
 
       <Collapse
-        in={isOpen1}
+        in={Sharun}
         animateOpacity
         style={{ marginTop: "0!important" }}
       >

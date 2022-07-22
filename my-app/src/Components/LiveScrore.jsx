@@ -1,4 +1,3 @@
-
 import {
   Badge,
   Button,
@@ -38,7 +37,7 @@ export default function LiveScore() {
   }, []);
   return (
     <Box w="90%" m="auto" textAlign="center" mt="5%">
-      <Heading color={"red"}>Live Scores</Heading>
+      <Heading ml="1%" color={"red"} display={'flex'} gap="3rem" >Live Scores <Image mt="5px" h="30px" src="https://cdn-icons-png.flaticon.com/512/7037/7037818.png"/> </Heading>
       <SimpleGrid py={6} gap="3rem" mt="1%" columns={[2, 3, 3]}>
         {score.length == 0
           ? "Loading..."
@@ -51,6 +50,7 @@ export default function LiveScore() {
                 rounded={"md"}
                 overflow={"hidden"}
                 p="2rem"
+                _hover={{bg:'gray.100',color:'white'}}
               >
                 {elem.t1s == "" ? (
                   ""
