@@ -1,3 +1,4 @@
+import { PhoneIcon } from "@chakra-ui/icons";
 import {
   Box,
   Container,
@@ -56,9 +57,30 @@ export default function LargeWithLogoLeft() {
           </Stack>
           <Stack align={"flex-start"}>
             <ListHeader>Mobile Site & Apps</ListHeader>
-            <Link href={"#"}> m.cricbuzz.com</Link>
-            <Link href={"#"}>Android</Link>
-            <Link href={"#"}>iOS</Link>
+            <Link href={"#"} display="flex" gap="1rem">
+              {" "}
+              <Image
+                h="20px"
+                src="https://cdn-icons.flaticon.com/png/128/3019/premium/3019021.png?token=exp=1658411004~hmac=76e7a8ca82645f89aabd604cfcd76f07"
+              />{" "}
+              m.cricbuzz.com
+            </Link>
+            <Link href={"#"} display="flex" gap="1rem">
+              {" "}
+              <Image
+                h="20px"
+                src="https://cdn-icons.flaticon.com/png/128/3128/premium/3128279.png?token=exp=1658411013~hmac=130caa73e4216c0e5de29809e0164491"
+              />{" "}
+              Android
+            </Link>
+            <Link href={"#"} display="flex" gap="1rem">
+              {" "}
+              <Image
+                h="20px"
+                src="https://cdn-icons-png.flaticon.com/128/731/731985.png"
+              />
+              iOS
+            </Link>
           </Stack>
           <Stack align={"flex-start"}>
             <ListHeader>Company</ListHeader>
@@ -71,11 +93,46 @@ export default function LargeWithLogoLeft() {
 
           <Stack align={"flex-start"}>
             <ListHeader>Follow Us</ListHeader>
-            <Link href={"#"}>Facebook</Link>
-            <Link href={"#"}>Twitter</Link>
-            <Link href={"#"}>Dribbble</Link>
-            <Link href={"#"}>Instagram</Link>
-            <Link href={"#"}>LinkedIn</Link>
+            <Link href={"#"} display="flex" gap="1rem">
+              {" "}
+              <Image
+                h="20px"
+                src="https://cdn-icons.flaticon.com/png/128/4494/premium/4494475.png?token=exp=1658410536~hmac=e39f0834ab7570bce59b1d9171580196"
+              />{" "}
+              Facebook
+            </Link>
+            <Link href={"#"} display="flex" gap="1rem">
+              {" "}
+              <Image
+                h="20px"
+                src="https://cdn-icons.flaticon.com/png/512/4494/premium/4494477.png?token=exp=1658410536~hmac=810be72c7ad4a66e66f30c87f0a20d46"
+              />{" "}
+              Twitter
+            </Link>
+            <Link href={"#"} display="flex" gap="1rem">
+              {" "}
+              <Image
+                h="20px"
+                src="https://cdn-icons-png.flaticon.com/128/733/733585.png"
+              />{" "}
+              What's App
+            </Link>
+            <Link href={"#"} display="flex" gap="1rem">
+              {" "}
+              <Image
+                h="20px"
+                src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"
+              />{" "}
+              Instagram
+            </Link>
+            <Link href={"#"} display="flex" gap="1rem">
+              {" "}
+              <Image
+                h="20px"
+                src="https://cdn-icons.flaticon.com/png/128/3536/premium/3536505.png?token=exp=1658410817~hmac=85b6333d72738d6f9105e907eb5dd9c3"
+              />{" "}
+              LinkedIn
+            </Link>
           </Stack>
         </SimpleGrid>
       </Container>

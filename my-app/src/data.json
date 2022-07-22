@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/123157/where-in-cricket-deep-space-will-we-walk-now",
+        "link": "https://www.cricbuzz.com/cricket-news/123157/where-in-cricket-deep-space-will-we-walk-now",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c239532/where-in-cricket-deep-space-wi.jpg",
         "title": "Reflections",
         "heading": "Where in cricket deep space will we walk now?",
@@ -10,7 +10,7 @@
     },
     {
         "id": "2",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/123080/how-will-the-ipl-riches-shape-indian-cricket",
+        "link": "https://www.cricbuzz.com/cricket-news/123080/how-will-the-ipl-riches-shape-indian-cricket",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c239064/how-will-the-ipl-riches-shape.jpg",
         "title": "Inside Story",
         "heading": "How will the IPL riches shape Indian cricket",
@@ -19,7 +19,7 @@
     },
     {
         "id": "3",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/123040/is-cricket-prepared-to-weather-the-storm",
+        "link": "https://www.cricbuzz.com/cricket-news/123040/is-cricket-prepared-to-weather-the-storm",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c238414/is-cricket-prepared-to-weather.jpg",
         "title": "Cricket & Climate Change",
         "heading": "Is Cricket prepared to weather the storm?",
@@ -28,7 +28,7 @@
     },
     {
         "id": "4",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122993/whats-going-wrong-for-india-overseas",
+        "link": "https://www.cricbuzz.com/cricket-news/122993/whats-going-wrong-for-india-overseas",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c237718/whats-going-wrong-for-india-o.jpg",
         "title": "Think Tank",
         "heading": "What's going wrong for India overseas?",
@@ -37,7 +37,7 @@
     },
     {
         "id": "5",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122960/unravelling-nathan-lyons-evolution",
+        "link": "https://www.cricbuzz.com/cricket-news/122960/unravelling-nathan-lyons-evolution",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c237357/unravelling-nathan-lyons-evol.jpg",
         "title": "Dialogue room",
         "heading": "Unravelling Nathan Lyon's evolution",
@@ -46,7 +46,7 @@
     },
     {
         "id": "6",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122930/what-the-ipl-rights-mean-for-the-rest-of-the-world",
+        "link": "https://www.cricbuzz.com/cricket-news/122930/what-the-ipl-rights-mean-for-the-rest-of-the-world",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c235438/what-the-ipl-rights-mean-for-t.jpg",
         "title": "Think Tank",
         "heading": "What the IPL rights mean for the rest of the world",
@@ -55,7 +55,7 @@
     },
     {
         "id": "7",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122875/piecing-together-the-pujara-puzzle",
+        "link": "https://www.cricbuzz.com/cricket-news/122875/piecing-together-the-pujara-puzzle",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c236664/piecing-together-the-pujara-pu.jpg",
         "title": "Think Tank",
         "heading": "Piecing together the Pujara puzzle",
@@ -64,7 +64,7 @@
     },
     {
         "id": "8",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122837/spin-batting-clinic-with-steve-smith",
+        "link": "https://www.cricbuzz.com/cricket-news/122837/spin-batting-clinic-with-steve-smith",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c236537/spin-batting-clinic-with-steve.jpg",
         "title": "Dialogue Room",
         "heading": "Spin batting clinic with Steve Smith",
@@ -73,7 +73,7 @@
     },
     {
         "id": "9",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122695/the-imperial-phase-of-joe-root",
+        "link": "https://www.cricbuzz.com/cricket-news/122695/the-imperial-phase-of-joe-root",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c236159/the-imperial-phase-of-joe-root.jpg",
         "title": "Reflections",
         "heading": "The Imperial phase of Joe Root",
@@ -82,7 +82,7 @@
     },
     {
         "id": "10",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122666/skidding-away-on-the-fast-lane-englands-injury-distress",
+        "link": "https://www.cricbuzz.com/cricket-news/122666/skidding-away-on-the-fast-lane-englands-injury-distress",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c236045/skidding-away-on-the-fast-lane.jpg",
         "title": "Think Tank",
         "heading": "Skidding away on the fast lane: England's injury distress",
@@ -91,7 +91,7 @@
     },
     {
         "id": "11",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122613/hard-to-hit-how-test-specialists-are-turning-over-a-new-leaf-in-t20-bowling",
+        "link": "https://www.cricbuzz.com/cricket-news/122613/hard-to-hit-how-test-specialists-are-turning-over-a-new-leaf-in-t20-bowling",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c235864/hard-to-hit-how-test-speciali.jpg",
         "title": "Think Tank",
         "heading": "Hard to hit: How Test specialists are turning over a new leaf in T20 bowling",
@@ -100,7 +100,7 @@
     },
     {
         "id": "12",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122563/live-and-let-fly-shane-bonds-unforgettable-club-season-in-cumbria",
+        "link": "https://www.cricbuzz.com/cricket-news/122563/live-and-let-fly-shane-bonds-unforgettable-club-season-in-cumbria",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c235608/live-and-let-fly-shane-bonds.jpg",
         "title": "Cricbuzz Rewind",
         "heading": "Live and Let Fly: Shane Bond's unforgettable club season in Cumbria",
@@ -109,7 +109,7 @@
     },
     {
         "id": "13",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122510/the-marcus-behind-stoin",
+        "link": "https://www.cricbuzz.com/cricket-news/122510/the-marcus-behind-stoin",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c235420/the-marcus-behind-stoin.jpg",
         "title": "Dialogue Room",
         "heading": "The Marcus behind 'Stoin'",
@@ -118,7 +118,7 @@
     },
     {
         "id": "14",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122460/behind-the-scenes-of-gujarat-titans-ipl-win-with-gary-kirsten",
+        "link": "https://www.cricbuzz.com/cricket-news/122460/behind-the-scenes-of-gujarat-titans-ipl-win-with-gary-kirsten",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c235266/behind-the-scenes-of-gujarat-t.jpg",
         "title": "Dialogue Room",
         "heading": "Behind the scenes of Gujarat Titans' IPL win with Gary Kirsten",
@@ -127,7 +127,7 @@
     },
     {
         "id": "15",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122375/kohli-of-2018-vs-2022-whats-changed-with-his-technique",
+        "link": "https://www.cricbuzz.com/cricket-news/122375/kohli-of-2018-vs-2022-whats-changed-with-his-technique",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c234836/kohli-of-2018-vs-2022-whats.jpg",
         "title": "Think Tank",
         "heading": "Kohli of 2018 vs 2022: What's changed with his technique",
@@ -136,7 +136,7 @@
     },
     {
         "id": "16",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122356/why-a-74-match-ipl-is-ripe-for-satire",
+        "link": "https://www.cricbuzz.com/cricket-news/122356/why-a-74-match-ipl-is-ripe-for-satire",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c234698/why-a-74-match-ipl-is-ripe-for.jpg",
         "title": "Reflections",
         "heading": "Why a 74-match IPL is ripe for satire",
@@ -145,7 +145,7 @@
     },
     {
         "id": "17",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122316/the-captains-journal-ft-faf-du-plessis",
+        "link": "https://www.cricbuzz.com/cricket-news/122316/the-captains-journal-ft-faf-du-plessis",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c234457/the-captains-journal-ft-faf.jpg",
         "title": "Dialogue Room",
         "heading": "The Captain's journal ft. Faf du Plessis",
@@ -154,7 +154,7 @@
     },
     {
         "id": "18",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122240/over-the-last-couple-of-years-ive-channeled-my-six-hitting-ability-the-right-way",
+        "link": "https://www.cricbuzz.com/cricket-news/122240/over-the-last-couple-of-years-ive-channeled-my-six-hitting-ability-the-right-way",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c234025/over-the-last-couple-of-years.jpg",
         "title": "Dialogue Room",
         "heading": "'Over the last couple of years, I've channeled my six-hitting ability the right way'",
@@ -163,7 +163,7 @@
     },
     {
         "id": "19",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122182/why-kkr-have-flattered-to-deceive",
+        "link": "https://www.cricbuzz.com/cricket-news/122182/why-kkr-have-flattered-to-deceive",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c233589/why-kkr-have-flattered-to-dece.jpg",
         "title": "Think Tank",
         "heading": "Why KKR have flattered to deceive",
@@ -172,7 +172,7 @@
     },
     {
         "id": "20",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122129/the-bull-in-winter",
+        "link": "https://www.cricbuzz.com/cricket-news/122129/the-bull-in-winter",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c233079/the-bull-in-winter.jpg",
         "title": "Reflections",
         "heading": "The Bull in winter",
@@ -181,7 +181,7 @@
     },
     {
         "id": "21",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122095/i-get-excited-to-see-express-young-bowlers-like-umran-malik-in-ipl",
+        "link": "https://www.cricbuzz.com/cricket-news/122095/i-get-excited-to-see-express-young-bowlers-like-umran-malik-in-ipl",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c232685/i-get-excited-to-see-express.jpg",
         "title": "Dialogue Room",
         "heading": "'I get excited to see express young bowlers like Umran Malik in IPL'",
@@ -190,7 +190,7 @@
     },
     {
         "id": "22",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/122042/why-gujarat-titans-and-sunrisers-hyderabad-are-greater-than-sum-of-their-parts",
+        "link": "https://www.cricbuzz.com/cricket-news/122042/why-gujarat-titans-and-sunrisers-hyderabad-are-greater-than-sum-of-their-parts",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c232158/why-gujarat-titans-and-sunrise.jpg",
         "title": "Think Tank",
         "heading": "Why Gujarat Titans and SunRisers Hyderabad are greater than sum of their parts",
@@ -199,7 +199,7 @@
     },
     {
         "id": "23",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121981/making-sense-of-mumbai-indians-ipl-2022-struggles",
+        "link": "https://www.cricbuzz.com/cricket-news/121981/making-sense-of-mumbai-indians-ipl-2022-struggles",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c231594/making-sense-of-mumbai-indians.jpg",
         "title": "Think Tank",
         "heading": "Making sense of Mumbai Indians' IPL 2022 struggles",
@@ -208,7 +208,7 @@
     },
     {
         "id": "24",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121938/the-stephen-fleming-way",
+        "link": "https://www.cricbuzz.com/cricket-news/121938/the-stephen-fleming-way",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c231132/the-stephen-fleming-way.jpg",
         "title": "Think Tank",
         "heading": "The Stephen Fleming way",
@@ -217,7 +217,7 @@
     },
     {
         "id": "25",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121911/the-theory-of-everything-with-venkatesh-iyer",
+        "link": "https://www.cricbuzz.com/cricket-news/121911/the-theory-of-everything-with-venkatesh-iyer",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c230885/the-theory-of-everything-with.jpg",
         "title": "Dialogue Room",
         "heading": "The theory of everything, with Venkatesh Iyer",
@@ -226,7 +226,7 @@
     },
     {
         "id": "26",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121871/jos-buttler-lost-or-found",
+        "link": "https://www.cricbuzz.com/cricket-news/121871/jos-buttler-lost-or-found",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c230581/jos-buttler-lost-or-found.jpg",
         "title": "Reflections",
         "heading": "Jos Buttler - lost or found?",
@@ -235,7 +235,7 @@
     },
     {
         "id": "27",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121827/what-makes-faf-tick-as-a-captain",
+        "link": "https://www.cricbuzz.com/cricket-news/121827/what-makes-faf-tick-as-a-captain",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c230280/what-makes-faf-tick-as-a-capta.jpg",
         "title": "THINK TANK",
         "heading": "What makes Faf tick as a captain",
@@ -244,7 +244,7 @@
     },
     {
         "id": "28",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121754/getting-to-grips-with-rashid-khan",
+        "link": "https://www.cricbuzz.com/cricket-news/121754/getting-to-grips-with-rashid-khan",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c229756/getting-to-grips-with-rashid-k.jpg",
         "title": "Dialogue Room",
         "heading": "Getting to grips with Rashid Khan",
@@ -253,7 +253,7 @@
     },
     {
         "id": "29",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121554/mignon-du-preez-returning-the-gift",
+        "link": "https://www.cricbuzz.com/cricket-news/121554/mignon-du-preez-returning-the-gift",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c228600/mignon-du-preez-returning-th.jpg",
         "title": "DIALOGUE ROOM",
         "heading": "Mignon du Preez - Returning the gift",
@@ -262,7 +262,7 @@
     },
     {
         "id": "30",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121794/meg-lannings-methodical-march-to-mission-world-cup",
+        "link": "https://www.cricbuzz.com/cricket-news/121794/meg-lannings-methodical-march-to-mission-world-cup",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c230045/meg-lannings-methodical-march.jpg",
         "title": "REFLECTIONS",
         "heading": "Meg Lanning's methodical march to mission World Cup",
@@ -271,7 +271,7 @@
     },
     {
         "id": "31",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121657/the-ricky-ponting-doctrine-inside-the-mind-of-the-ipl-coach",
+        "link": "https://www.cricbuzz.com/cricket-news/121657/the-ricky-ponting-doctrine-inside-the-mind-of-the-ipl-coach",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c228929/the-ricky-ponting-doctrine-in.jpg",
         "title": "Dialogue Room",
         "heading": "The Ricky Ponting doctrine: inside the mind of the IPL coach",
@@ -280,7 +280,7 @@
     },
     {
         "id": "32",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121705/can-a-pair-of-anchors-succeed-as-openers-in-t20s",
+        "link": "https://www.cricbuzz.com/cricket-news/121705/can-a-pair-of-anchors-succeed-as-openers-in-t20s",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c229310/can-a-pair-of-anchors-succeed.jpg",
         "title": "Think Tank",
         "heading": "Can a pair of anchors succeed as openers in T20s?",
@@ -289,7 +289,7 @@
     },
     {
         "id": "33",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121686/a-different-theme-but-the-conclusion-was-predictable",
+        "link": "https://www.cricbuzz.com/cricket-news/121686/a-different-theme-but-the-conclusion-was-predictable",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c229186/a-different-theme-but-the-con.jpg",
         "title": "Reflections",
         "heading": "A different theme, but the conclusion was predictable",
@@ -298,7 +298,7 @@
     },
     {
         "id": "34",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121642/ipl-2022-the-unique-tactical-implications-that-venues-hold",
+        "link": "https://www.cricbuzz.com/cricket-news/121642/ipl-2022-the-unique-tactical-implications-that-venues-hold",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c228874/ipl-2022-the-unique-tactical.jpg",
         "title": "Think Tank",
         "heading": "IPL 2022: The unique tactical implications that venues hold",
@@ -307,7 +307,7 @@
     },
     {
         "id": "35",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121625/ms-dhoni-decoding-the-midas-touch",
+        "link": "https://www.cricbuzz.com/cricket-news/121625/ms-dhoni-decoding-the-midas-touch",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c228813/ms-dhoni-decoding-the-midas.jpg",
         "title": "THINK TANK",
         "heading": "MS Dhoni - Decoding the Midas Touch",
@@ -316,7 +316,7 @@
     },
     {
         "id": "36",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121595/are-india-missing-a-trick-or-being-original",
+        "link": "https://www.cricbuzz.com/cricket-news/121595/are-india-missing-a-trick-or-being-original",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c228759/are-india-missing-a-trick-or-b.jpg",
         "title": "Reflections",
         "heading": "Are India missing a trick or being original?",
@@ -325,7 +325,7 @@
     },
     {
         "id": "37",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121512/fire-and-ice-vital-elements-in-indias-world-cup-campaign",
+        "link": "https://www.cricbuzz.com/cricket-news/121512/fire-and-ice-vital-elements-in-indias-world-cup-campaign",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c228485/fire-and-ice-vital-elements-i.jpg",
         "title": "REFLECTIONS",
         "heading": "Fire and Ice: Vital elements in India's World Cup campaign",
@@ -334,7 +334,7 @@
     },
     {
         "id": "38",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121456/javeria-khan-destinys-batter",
+        "link": "https://www.cricbuzz.com/cricket-news/121456/javeria-khan-destinys-batter",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c228270/javeria-khan-destinys-batter.jpg",
         "title": "Cricbuzz Plus",
         "heading": "Javeria Khan: Destiny's batter",
@@ -343,7 +343,7 @@
     },
     {
         "id": "39",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121412/india-at-the-world-cup-its-not-always-all-about-the-numbers",
+        "link": "https://www.cricbuzz.com/cricket-news/121412/india-at-the-world-cup-its-not-always-all-about-the-numbers",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c228100/india-at-the-world-cup-its-n.jpg",
         "title": "Reflections",
         "heading": "India at the World Cup: It's not always all about the numbers",
@@ -352,7 +352,7 @@
     },
     {
         "id": "40",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121401/warnie-in-a-moment-all-can-change",
+        "link": "https://www.cricbuzz.com/cricket-news/121401/warnie-in-a-moment-all-can-change",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c228075/warnie-in-a-moment-all-can-c.jpg",
         "title": "Cricbuzz Plus",
         "heading": "Warnie: In A Moment, All Can Change",
@@ -361,7 +361,7 @@
     },
     {
         "id": "41",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121368/can-south-africa-upset-the-apple-cart",
+        "link": "https://www.cricbuzz.com/cricket-news/121368/can-south-africa-upset-the-apple-cart",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c227983/can-south-africa-upset-the-app.jpg",
         "title": "Think Tank",
         "heading": "Can South Africa upset the apple cart?",
@@ -370,7 +370,7 @@
     },
     {
         "id": "42",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121321/what-will-be-the-key-for-india-in-the-world-cup",
+        "link": "https://www.cricbuzz.com/cricket-news/121321/what-will-be-the-key-for-india-in-the-world-cup",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c227751/what-will-be-the-key-for-india.jpg",
         "title": "WV Raman Reflections",
         "heading": "What will be the key for India in the World Cup?",
@@ -379,7 +379,7 @@
     },
     {
         "id": "43",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121279/indias-test-middle-order-where-is-it-headed",
+        "link": "https://www.cricbuzz.com/cricket-news/121279/indias-test-middle-order-where-is-it-headed",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c227347/indias-test-middle-order-wh.jpg",
         "title": "THINK TANK",
         "heading": "India's Test middle order - where is it headed?",
@@ -388,7 +388,7 @@
     },
     {
         "id": "44",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121267/womens-cricket-is-knocking-at-the-door-of-opportunity-dont-let-it-slip-away",
+        "link": "https://www.cricbuzz.com/cricket-news/121267/womens-cricket-is-knocking-at-the-door-of-opportunity-dont-let-it-slip-away",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c227324/womens-cricket-is-knocking-at.jpg",
         "title": "REFLECTIONS",
         "heading": "Women's cricket is knocking at the door of opportunity, don't let it slip away",
@@ -397,7 +397,7 @@
     },
     {
         "id": "45",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121227/why-cricket-is-still-waiting-for-its-data-revolution",
+        "link": "https://www.cricbuzz.com/cricket-news/121227/why-cricket-is-still-waiting-for-its-data-revolution",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c227137/why-cricket-is-still-waiting-f.jpg",
         "title": "Think Tank",
         "heading": "Why cricket is still waiting for its data revolution",
@@ -406,7 +406,7 @@
     },
     {
         "id": "46",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121180/the-story-of-richard-the-butcher-and-baby-ab",
+        "link": "https://www.cricbuzz.com/cricket-news/121180/the-story-of-richard-the-butcher-and-baby-ab",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c226994/the-story-of-richard-the-butch.jpg",
         "title": "Cricbuzz Plus",
         "heading": "The story of Richard the Butcher and 'Baby AB'",
@@ -415,7 +415,7 @@
     },
     {
         "id": "47",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121108/ipl-auction-2022-who-has-the-missing-puzzle-pieces",
+        "link": "https://www.cricbuzz.com/cricket-news/121108/ipl-auction-2022-who-has-the-missing-puzzle-pieces",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c226735/ipl-auction-2022-who-has-the.jpg",
         "title": "Think Tank",
         "heading": "IPL Auction 2022 - Who has the missing puzzle pieces?",
@@ -424,7 +424,7 @@
     },
     {
         "id": "48",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121017/ipl-auction-the-selection-echoes",
+        "link": "https://www.cricbuzz.com/cricket-news/121017/ipl-auction-the-selection-echoes",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c226162/ipl-auction-the-selection-ech.jpg",
         "title": "Think Tank",
         "heading": "IPL Auction: The selection echoes",
@@ -433,7 +433,7 @@
     },
     {
         "id": "49",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/121004/how-going-with-the-ipl-flow-could-benefit-english-cricket",
+        "link": "https://www.cricbuzz.com/cricket-news/121004/how-going-with-the-ipl-flow-could-benefit-english-cricket",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c226118/how-going-with-the-ipl-flow-co.jpg",
         "title": "Reflections",
         "heading": "How going with the IPL flow could benefit English cricket",
@@ -442,7 +442,7 @@
     },
     {
         "id": "50",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/120971/cracking-the-ipl-auction-algorithm-matrix",
+        "link": "https://www.cricbuzz.com/cricket-news/120971/cracking-the-ipl-auction-algorithm-matrix",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c225998/cracking-the-ipl-auction-algor.jpg",
         "title": "Think Tank",
         "heading": "Cracking the IPL Auction Algorithm Matrix",
@@ -451,7 +451,7 @@
     },
     {
         "id": "51",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/120875/how-cricket-could-benefit-from-a-genuine-mentorship-program",
+        "link": "https://www.cricbuzz.com/cricket-news/120875/how-cricket-could-benefit-from-a-genuine-mentorship-program",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c225749/how-cricket-could-benefit-from.jpg",
         "title": "CB Plus",
         "heading": "How cricket could benefit from a genuine mentorship program",
@@ -460,7 +460,7 @@
     },
     {
         "id": "52",
-        "cb-col href": "https://www.cricbuzz.com/cricket-news/120819/crickets-cosy-coaches-club-both-a-performance-issue-and-a-more-sinister-one",
+        "link": "https://www.cricbuzz.com/cricket-news/120819/crickets-cosy-coaches-club-both-a-performance-issue-and-a-more-sinister-one",
         "img": "https://www.cricbuzz.com/a/img/v1/245x186/i1/c225527/crickets-cosy-coaches-club-b.jpg",
         "title": "Reflections",
         "heading": "Cricket's cosy coaches club: both a performance issue and a more sinister one",

@@ -7,10 +7,13 @@ import {
     Text,
     Box,
     useBreakpointValue,
+    Link,
   } from '@chakra-ui/react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import Banner from './banner';
 import data from '../data.json'
+import InitialFocus from './modal';
   
   export default function Home() {
    const [news,setNews]=useState([])
@@ -20,14 +23,16 @@ import data from '../data.json'
    },[])
    console.log(news,'newwww');
     return (
-        <Box  m="auto" w="70%" textAlign='justify' p="5%">
-      <Heading pb='1rem'>Editorials</Heading>
+        <Box  m="auto" w="70%" textAlign='justify' p="2%">
+          <Banner/>
+         
+      <Heading pt='2rem'>Editorials</Heading>
       {
       data.map((elem)=>(
 
       
            
-      <Stack mt="5%"   border="1px" borderRadius="5px" borderColor="gray.200"   h={'30vh'} direction={{ base: 'column', md: 'row' }}>
+      <Stack mt="5%"   border="1px" borderRadius="5px" borderColor="gray.200"   h={'auto'} direction={{ base: 'column', md: 'row' }}>
          <Flex  flex={1}>
           <Image
           w="100%"
@@ -40,14 +45,14 @@ import data from '../data.json'
         </Flex>
         <Flex p={5} flex={1}  justifyContent="flex-start">
           <Stack textAlign={'justify'} >
-            <Box >{elem.title}</Box>
-            <Box  >{elem.heading}</Box>
+            <Box fontWeight='700' color={'gray'} >{elem.title}</Box>
+            <Link fontSize='20px' fontWeight='bold'  href={elem.link}  >{elem.heading}</Link>
             <Box>{elem.news}</Box>
-             <Box>{elem.time}</Box>
+             <Box color='gray'>{elem.time}</Box>
            
           </Stack>
         </Flex>
-        <Image pr="2rem" h="25%" src={'../img.png'} alt='img'/>
+        <Image pr="2rem" h='3rem' w="5rem" src={'../img.png'} alt='img'/>
        
       </Stack>
       ))}
