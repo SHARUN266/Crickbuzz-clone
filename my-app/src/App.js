@@ -12,6 +12,8 @@ import SimpleCard from "./Components/Every page Comp/SignIn";
 
 import { PrivateRoute } from "./Components/PrivateRoute";
 import ForgotPasswordForm from "./Components/Every page Comp/forgotPassword";
+import SearchBar from "./Components/Searchbar";
+import Simple from "./Components/PlayerDetails";
 
 function App() {
   return (
@@ -41,7 +43,23 @@ function App() {
             }
           />
           <Route path="/SignIn" element={<SimpleCard />} />
-          <Route path="/forgot" element={<ForgotPasswordForm/>}/>
+          <Route path="/forgot" element={<ForgotPasswordForm />} />
+          <Route
+            path="/Search"
+            element={
+              <PrivateRoute>
+                <SearchBar />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/details/:id"
+            element={
+              <PrivateRoute>
+                <Simple />
+              </PrivateRoute>
+            }
+          />
         </Routes>
       </BrowserRouter>
 

@@ -1,29 +1,7 @@
-import {
-  Badge,
-  Button,
-  Center,
-  Flex,
-  Heading,
-  Image,
-  Link,
-  Stack,
-  Text,
-  Table,
-  Thead,
-  Tbody,
-  Tfoot,
-  Tr,
-  Th,
-  Box,
-  Td,
-  TableCaption,
-  TableContainer,
-  useColorModeValue,
-  SimpleGrid,
-} from "@chakra-ui/react";
+import { Heading, Image, Text, Box, SimpleGrid } from "@chakra-ui/react";
 import { useState } from "react";
 import { useEffect } from "react";
-import Home from "./Home";
+
 
 export default function LiveScore() {
   const [score, setScore] = useState([]);
@@ -37,10 +15,17 @@ export default function LiveScore() {
   }, []);
   return (
     <Box w="90%" m="auto" textAlign="center" mt="5%">
-      <Heading ml="1%" color={"red"} display={'flex'} gap="3rem" >Live Scores <Image mt="5px" h="30px" src="https://cdn-icons-png.flaticon.com/512/7037/7037818.png"/> </Heading>
+      <Heading ml="1%" color={"red"} display={"flex"} gap="3rem">
+        Live Scores{" "}
+        <Image
+          mt="5px"
+          h="30px"
+          src="https://cdn-icons-png.flaticon.com/512/7037/7037818.png"
+        />{" "}
+      </Heading>
       <SimpleGrid py={6} gap="3rem" mt="1%" columns={[2, 3, 3]}>
         {score.length == 0
-          ? "Loading..."
+          ? <Image src="https://media1.giphy.com/media/kUTME7ABmhYg5J3psM/giphy.gif?cid=ecf05e47fi8zvoup7jgmou1n4093icv6fqbqa99csu92ejvo&rid=giphy.gif&ct=g"/>
           : score.map((elem) => (
               <Box
                 maxW={"330px"}
@@ -50,7 +35,7 @@ export default function LiveScore() {
                 rounded={"md"}
                 overflow={"hidden"}
                 p="2rem"
-                _hover={{bg:'gray.100',color:'white'}}
+                _hover={{ bg: "gray.100", color: "white" }}
               >
                 {elem.t1s == "" ? (
                   ""

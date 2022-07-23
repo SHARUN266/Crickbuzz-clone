@@ -6,8 +6,7 @@ import {
   Stack,
   Avatar,
   Image,
-  useColorModeValue,
-  ColorModeScript,
+  
 } from "@chakra-ui/react";
 
 function LiveCard({ name, img, time, date, venue, status }) {

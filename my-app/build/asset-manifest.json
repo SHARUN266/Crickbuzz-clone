@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4b88a7be.css",
+    "main.js": "./static/js/main.e1c254ae.js",
+    "static/js/787.28cb0dcd.chunk.js": "./static/js/787.28cb0dcd.chunk.js",
+    "static/media/aksh-yadav-bY4cqxp7vos-unsplash.jpg": "./static/media/aksh-yadav-bY4cqxp7vos-unsplash.8b3c07205a00a7f3bf28.jpg",
+    "index.html": "./index.html",
+    "main.4b88a7be.css.map": "./static/css/main.4b88a7be.css.map",
+    "main.e1c254ae.js.map": "./static/js/main.e1c254ae.js.map",
+    "787.28cb0dcd.chunk.js.map": "./static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b88a7be.css",
+    "static/js/main.e1c254ae.js"
+  ]
+}
