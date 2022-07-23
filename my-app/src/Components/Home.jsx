@@ -1,12 +1,12 @@
 import {
-  Button,
+  
   Flex,
   Heading,
   Image,
   Stack,
-  Text,
+  
   Box,
-  useBreakpointValue,
+  
   Link,
 } from "@chakra-ui/react";
 import { useEffect } from "react";
@@ -53,7 +53,7 @@ export default function Home() {
                 {elem.heading}
               </Link>
               <Box>{elem.news}</Box>
-              <Box color="gray">{elem.time}</Box>
+              <Box color="gray">{Math.floor(Math.random()*60)} m ago</Box>
             </Stack>
           </Flex>
           <Image pr="2rem" h="3rem" w="5rem" src={"../img.png"} alt="img" />

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,125 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body { 
+  background: gainsboro;
+}
+
+.container {
+  padding: 1rem;
+ 
+  display: flex;
+  flex-direction: column;
+ 
+  background-image: url('../public/aksh-yadav-bY4cqxp7vos-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#input-label {
+  display: none;
+}
+
+.input-wrap {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+  border-radius: 0.8rem;
+ 
+  box-sizing: border-box;
+}
+
+.input-wrap i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+#product-search {
+  font-size: 15px;
+  color: white;
+  width: 60%;
+  height: 5vh;
+  padding: 0 0 0 1rem;
+  background: rgba(17, 17, 17, 0.349);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  
+}
+
+#product-search::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.fa-times:hover {
+  cursor: pointer;
+}
+
+.results-wrap {
+  z-index: 2;
+  overflow-x: scroll;
+  width: 50%;
+  min-height: 1rem;
+  max-height: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #000;
+  box-sizing: border-box;
+}
+.results-wrap::-webkit-scrollbar{
+  display: none;
+}
+
+.list-item {
+  display: inline-flex;
+  word-wrap: initial;
+  list-style-type: none;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+  margin-right: 0.5rem;
+}
+
+.list-item a {
+  color: grey;
+  text-decoration: none;
+}
+
+.list-item a:hover {
+  color: #111;
+  transition: 200ms ease-in;
+}
+
+@media (max-width: 768px) {
+  .input-wrap {
+    width: 96%;
+  }
+  
+  .results-wrap {
+    width: 96%;
+  }
+}
+
+#table{
+  margin: auto;
+  padding: 3rem;
+  border: 1px solid whitesmoke;
+  color: white;
+  width: 90%;
+  background: rgba(4, 4, 4, 0.244);
 }

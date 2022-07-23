@@ -38,18 +38,19 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
-import {  ButtonProps,  useColorMode } from '@chakra-ui/react';
-import { BsSun, BsMoonStarsFill } from 'react-icons/bs';
+import { ButtonProps, useColorMode } from "@chakra-ui/react";
+import { BsSun, BsMoonStarsFill } from "react-icons/bs";
 
 import React from "react";
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
+import SearchBar from "../Searchbar";
 
-export default function WithSubnavigation(props:ButtonProps) {
+export default function WithSubnavigation(props: ButtonProps) {
   const { colorMode, toggleColorMode } = useColorMode();
-  
+
   const { Sharun, onToggle } = useDisclosure();
-   
+
   let data = JSON.parse(localStorage.getItem("Image"));
   // console.log('me local imaage',data);
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -72,11 +73,9 @@ export default function WithSubnavigation(props:ButtonProps) {
       window.location.reload();
     }
   }
-  function handleLogOut(){
-    localStorage.setItem('bool','false')
+  function handleLogOut() {
+    localStorage.setItem("bool", "false");
   }
-  
-  
 
   return (
     <Box pos={"sticky"} top="0" zIndex="3">
@@ -139,11 +138,7 @@ export default function WithSubnavigation(props:ButtonProps) {
           <IconButton
             onClick={onToggle}
             icon={
-              Sharun ? (
-                <CloseIcon w={3} h={3} />
-              ) : (
-                <HamburgerIcon w={5} h={5} />
-              )
+              Sharun ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
             }
             variant={"ghost"}
             aria-label={"Toggle Navigation"}
@@ -175,18 +170,19 @@ export default function WithSubnavigation(props:ButtonProps) {
           direction={"row"}
           spacing={6}
         >
-           <Flex h="100%" justifyContent="center" alignItems="center">
-      <Button
-        aria-label="Toggle Color Mode"
-        onClick={toggleColorMode}
-        _focus={{ boxShadow: 'none' }}
-        bg=""
-        color={'white'}
-        w="fit-content"
-        {...props}>
-        {colorMode === 'light' ? <BsMoonStarsFill /> : <BsSun />}
-      </Button>
-    </Flex>
+          <Flex h="100%" justifyContent="center" alignItems="center">
+            <Button
+              aria-label="Toggle Color Mode"
+              onClick={toggleColorMode}
+              _focus={{ boxShadow: "none" }}
+              bg=""
+              color={"white"}
+              w="fit-content"
+              {...props}
+            >
+              {colorMode === "light" ? <BsMoonStarsFill /> : <BsSun />}
+            </Button>
+          </Flex>
           <Button
             display={{ base: "none", md: "inline-flex" }}
             fontSize={"sm"}
@@ -218,7 +214,10 @@ export default function WithSubnavigation(props:ButtonProps) {
                 <MenuDivider />
                 <MenuItem>
                   {" "}
-                  <Link href="/SignIn" onClick={handleLogOut}> Log Out </Link>
+                  <Link href="/SignIn" onClick={handleLogOut}>
+                    {" "}
+                    Log Out{" "}
+                  </Link>
                 </MenuItem>
               </MenuList>
             </Menu>
@@ -365,11 +364,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
         )}
       </Flex>
 
-      <Collapse
-        in={Sharun}
-        animateOpacity
-        style={{ marginTop: "0!important" }}
-      >
+      <Collapse in={Sharun} animateOpacity style={{ marginTop: "0!important" }}>
         <Stack
           mt={2}
           pl={2}
@@ -407,7 +402,8 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/schedule",
   },
   {
-    label: "Achieves",
+    label: "Search Player",
+    href: "/Search",
   },
   {
     label: "News",
@@ -462,7 +458,19 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Series",
     children: [
       {
-        label: "trying to add api here......",
+        label: "ICC Cricket World Cup League Two 2019-23",
+      },
+      {
+        label: "Pakistan tour of Sri Lanka, 2022",
+      },
+      {
+        label: "South Africa tour of England, 2022",
+      },
+      {
+        label: "India tour of West Indies, 2022",
+      },
+      {
+        label: "ICC Mens T20 World Cup Europe Qualifier Group B 2022",
       },
     ],
   },
