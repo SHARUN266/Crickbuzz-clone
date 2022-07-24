@@ -49,6 +49,8 @@ to see my project [Click here](https://cricbuzzclonebysharun.netlify.app/)
 
 ![image](https://user-images.githubusercontent.com/101327895/180632485-514c51c4-d5b9-48ad-b33b-a6b0f9faf314.png)
 ![image](https://user-images.githubusercontent.com/101327895/180632655-c57061e6-8ac8-4781-b1a0-4f5133015ea0.png)
+![image](https://user-images.githubusercontent.com/101327895/180633642-95b1ed70-ce35-457c-a249-585c276a1c3a.png)
+
 
 ![image](https://user-images.githubusercontent.com/101327895/180632503-96e0b888-80d4-4f63-b637-90b667d2f30d.png)
 ![image](https://user-images.githubusercontent.com/101327895/180632522-d4ce0c31-4c6d-4d51-a3e1-57563d715e81.png)
